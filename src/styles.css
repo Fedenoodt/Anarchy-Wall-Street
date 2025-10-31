@@ -1,0 +1,31 @@
+/* Estilo con estética fuerte (colores oscuros, tipografía Impact) para reforzar la identidad Anarchy Wall Street */
+* {
+    color:#cca69a;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    background-image: url("img/wallpaper.png");
+    background-color: #c54731;
+}
+
+textarea, input, button {
+    background-color: #5b1313;
+    color: rgb(255, 255, 255);
+}
+
+button, article, form {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+article  {
+    background-color: #7a2c20;
+}
+form  {
+    background-color: #502319;
+}
+
+label {
+    font-size: 2rem;
+    padding: 1rem;
+}

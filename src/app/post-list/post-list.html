@@ -1,0 +1,14 @@
+<h2>Muro</h2>
+
+<div *ngIf="posts$ | async as posts; else noPosts">
+
+  <article *ngFor="let p of posts">
+    <h3>{{ p.titulo }}</h3>
+    <p>{{ p.contenido }}</p>
+    <small>Por {{ p.autor }}</small>
+  </article>
+</div>
+
+<ng-template #noPosts>
+  <p>Sin publicaciones aún.</p>
+</ng-template>

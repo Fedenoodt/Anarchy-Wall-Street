@@ -1,0 +1,19 @@
+<!-- Es un formulario que facilita al usuario la creación de contenido en la red. -->
+
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <label>Título</label>
+  <input formControlName="titulo" />
+
+  <label>Contenido</label>
+  <textarea formControlName="contenido"></textarea>
+
+  <label>Autor</label>
+  <input formControlName="autor" />
+
+  <button type="submit" [disabled]="isSending">
+    {{ isSending ? 'Publicando...' : 'Publicar' }}
+  </button>
+
+  <!-- Muestra un mensaje de estado: éxito (“Publicación guardada en Firebase”) o error. -->
+  <p>{{ message }}</p>
+</form>

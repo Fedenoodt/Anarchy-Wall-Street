@@ -1,60 +1,59 @@
-# 🧱 Anarchy Wall Street
+# AnarchyWallStreet
 
-**Anarchy Wall Street** es un gestor de contenido minimalista y anárquico, construido en **Angular** con backend en **Firebase**, que propone un muro único e irreversible donde cada publicación es huella y archivo.  
-No es un blog clásico ni una red social: es un manifiesto en forma de software.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
 
----
+## Development server
 
-## ✨ Principios de diseño
-- **Un solo muro**: todo converge en un espacio común, sin perfiles ni jerarquías.  
-- **Hablar sin culpa**: lo publicado no se edita ni se borra. La palabra queda.  
-- **Voces autónomas**: no hay comentarios ni réplicas; cada publicación se sostiene sola.  
-- **Imagen y palabra**: cada post puede incluir texto e imagen como ofrenda indivisible.  
-- **Archivo vivo**: el muro crece cronológicamente, como memoria colectiva irreversible.  
+To start a local development server, run:
 
----
+```bash
+ng serve
+```
 
-## ⚙️ Funcionalidades
-- Crear publicaciones con:
-  - **Título**  
-  - **Contenido**  
-  - **Imagen opcional**  
-  - **Autor** (nombre libre o “Anónimo”)  
-- Listado cronológico de posts en el **Muro Principal**.  
-- Visualización de cada post en detalle.  
-- Persistencia en **Firebase** (Firestore + Storage).  
-- Interfaz en **Angular**, simple y accesible.  
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
----
+## Code scaffolding
 
-## 📌 Objetivo
-Crear un **CMS minimalista** que no busque control ni perfección, sino **archivo y presencia**.  
-Un espacio donde la palabra y la imagen se lanzan sin culpa, y permanecen como testimonio.  
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
----
+```bash
+ng generate component component-name
+```
 
-## 🛠️ Stack Tecnológico
-- **Angular** (frontend, componentes, UI)  
-- **Firebase Firestore** (base de datos en tiempo real)  
-- **Firebase Storage** (almacenamiento de imágenes)  
-- **TypeScript** (lógica y tipado)  
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
----
+```bash
+ng generate --help
+```
 
-## 🚀 Roadmap (10 días)
-1. Definir estructura del proyecto.  
-2. Crear componentes básicos en Angular.  
-3. Implementar sistema de publicaciones.  
-4. Integrar Firebase (Firestore + Storage).  
-5. Optimizar rendimiento y seguridad.  
-6. Refinar diseño y accesibilidad.  
-7. Pruebas y ajustes finales.  
-8. Documentación.  
-9. Preparar despliegue.  
-10. Presentación del proyecto.  
+## Building
 
----
+To build the project run:
 
-## 📖 Licencia
-Este proyecto se distribuye bajo la licencia que el autor decida.  
-El muro es libre, pero la palabra tiene peso.  
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
